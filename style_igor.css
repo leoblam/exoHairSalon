@@ -1,0 +1,167 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-margin-block: 1em 0.5em;
+    list-style-type: none;
+    padding-inline-start: 0px;
+ }
+
+body {
+    width: 100vw;
+ }
+  
+.container {
+    width: 80%;
+ }
+
+h1, h2, h3, h4 {
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 34px;
+    margin: 3rem;
+ }
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+ }
+
+.service img {
+    width: 9rem;
+    height: 9rem;
+ }
+
+.service_bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: #ccc;
+    padding: 3.5rem;
+    border: 1px solid rgb(177, 177, 177);
+    box-shadow: 0px 5px 4px rgb(223, 223, 223);
+ }
+
+section {
+    background-color: rgb(235, 235, 235);
+    padding: 1.5rem;
+ }
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+ }
+
+.portfolio figure {
+    width: 18rem;
+    height: auto;
+    margin: 1rem 2.5rem;
+    background-color: white;
+    box-shadow: 2px 6px 5px 2px rgb(167, 167, 167);
+ }
+
+.portfolio img {
+    width: 18rem;
+    height: 18rem;
+ }
+
+.portfolio_fig {
+    padding: 1.5rem 1rem;
+ }
+
+.portfolio_fig figcaption {
+    padding: 1rem 0;
+    font-size: 20px;
+    font-weight: 600;
+ }
+
+.portfolio_fig .port {
+    color: #8a8a8a;
+    padding-bottom: 0.5rem;
+ }
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+ }
+
+ .team figure {
+    width: 18rem;
+    height: auto;
+    margin: 1rem 2.5rem;
+    background-color: white;
+    box-shadow: 2px 6px 5px 2px rgb(167, 167, 167);
+ }
+
+.team img {
+    width: 18rem;
+    height: 18rem;
+ }
+
+.name {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.what {
+    margin: 3rem 0;
+}
+.what_div {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 6px 5px rgb(167, 167, 167);
+}
+
+.what_fig {
+    width: 29rem;
+    padding: 3rem;
+}
+
+.what img {
+    width: 29rem;
+}
+
+.what_titre {
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 990px) {
+    .what_div {
+        display: block;
+    }
+}
+
+  
