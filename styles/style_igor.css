@@ -18,7 +18,7 @@ body {
  }
 
 h1, h2, h3, h4 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: serif;
  }
 
 h2 {
@@ -130,6 +130,43 @@ span {
 }
 
 .what {
+    width: 80vw;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.what_div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.what_fig {
+    width: 50%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8rem 4rem;
+    min-width: 20rem;
+}
+
+.what_fig h3 {
+    font-size: 250%;
+}
+
+.what_fig p {
+    line-height: 185%;
+    padding-top: 1rem;
+}
+
+.what_div img {
+    width: 50%;
+    object-fit: cover;
+    min-width: 20rem;
+}
+/* .what {
     margin: 3rem 0;
 }
 .what_div {
@@ -156,12 +193,14 @@ span {
     padding-bottom: 0.5rem;
     font-size: 20px;
     font-weight: 600;
-}
+} */
 
 @media screen and (max-width: 990px) {
-    .what_div {
-        display: block;
+
+    .what_fig {
+        padding: 2rem;
     }
 }
+
 
   
