@@ -9,8 +9,13 @@
 }
 
 .contact-image-container {
-    width: 40vw;
+   display: flex;
+   align-items: center;
 }
+
+.contact-image-container img{
+      width: 40vw;
+   }
 
 .contact-form-container input {
     border-style: none;
@@ -55,6 +60,7 @@ footer {
 footer .footer-header {
     display: flex;
     justify-content: space-around;
+    gap:5rem;
    
 }
 
@@ -100,7 +106,13 @@ footer p,
 footer .adress {
     color: white;
     font-size: 1em;
+    padding-right: 1rem;
 }
+
+footer p {
+      text-align: justify;
+}
+
 
 .footer-icons span {
     display: inline-block;
@@ -144,8 +156,8 @@ footer .adress {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 1rem 6rem;
         width: 100%;
+        margin-top: 1rem;
 
     }
 
