@@ -28,6 +28,12 @@
     width: 100%;
 }
 
+.contact-form-container .input-container label{
+      color:  #7D7D7D;
+      display: block;
+      font-size: 1.2rem;
+  }
+
 .contact-title {
     font-size: 1.6rem;
     color: black;
