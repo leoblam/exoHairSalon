@@ -177,10 +177,11 @@ label,
 .container_leo_3 .about_left {
   width: 50%;
   min-width: 20rem;
+  display: flex;
 }
 .container_leo_3 .about_left img {
-  width: 95%;
-  object-fit: cover;
+  width: 100%;
+  object-fit: contain;
 }
 .container_leo_3 .about_right {
   width: 50%;
