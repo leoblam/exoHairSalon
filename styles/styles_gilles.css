@@ -1,0 +1,171 @@
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact-form-container {
+    width: 40vw;
+}
+
+.contact-image-container {
+    width: 40vw;
+}
+
+.contact-form-container input {
+    border-style: none;
+    width: 100%
+}
+
+.contact-form-container .input-container {
+    border-bottom: 2px #7D7D7D solid;
+    margin-top: 69px;
+    width: 100%;
+}
+
+.contact-title {
+    font-size: 1.6rem;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-form-container button {
+    background-color: white;
+    border: solid 1px #7D7D7D;
+    width: 100%;
+    padding: 15px;
+    margin-top: 77px;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #191919;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer .footer-header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer .footer-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .footer-header a,
+footer .adress,
+footer .footer-icons {
+    margin-top: 8px;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+footer .hair-salon-container {
+    width: 25vw;
+}
+
+.footer-header > div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-title {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer .hair-salon-title {
+    color: white;
+    font-size: 1.8em;
+}
+
+footer p,
+footer .adress {
+    color: white;
+    font-size: 1em;
+}
+
+.footer-icons span {
+    display: inline-block;
+    width: 30px;
+    height : 30px;
+    overflow: hidden;
+    border: solid 1px white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.footer-copyright span {
+    display: inline-block;
+    width: 18px;
+    height : 18px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width : 991px) {
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contact-form-container {
+        width: 80vw;
+    }
+
+    .contact-image-container {
+        width: 80vw;
+        margin-top: 5px;
+    }
+
+    footer .footer-header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem 6rem;
+        width: 100%;
+
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    footer .hair-salon-container {
+        width: 100%;
+    }
+
+    .contact-us-container {
+        text-align: center;
+    }
+
+    .contact-image-container {
+      display:none;
+    }
+
+
+}
+
+@media only screen and (min-width : 572px) {}
